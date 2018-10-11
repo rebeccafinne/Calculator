@@ -1,0 +1,127 @@
+#background{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  text-align: center;
+
+
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  background-color: #C97E7E;
+  text-align: center;
+
+}
+
+h1{
+  font-style: italic;
+
+}
+
+#container{
+  background-color: #945F5F;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+#grid{
+	border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  width: 450px;
+  height: 350px;
+
+  display: grid;
+  margin: 5px;
+  column-count: 4;
+  grid-template-areas:
+      "C back back pos"
+      "seven eight nine sub"
+      "four five six mul"
+      "one two three div"
+      "point zero eq add"
+
+
+}
+
+
+#display{
+  width: auto;
+  height: 100px;
+  background-color: #FFEAEA;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: right;
+
+}
+button{
+  box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  background-color: #FFEAEA;
+  font-size: 20px;
+}
+
+#C{
+  grid-area: C;
+}
+
+#back{
+  grid-area: back;
+}
+#pos{
+  grid-area: pos;
+}
+#seven{
+  grid-area: seven;
+}
+#eight{
+  grid-area: eight;
+}
+#nine{
+  grid-area: nine;
+}
+#sub{
+  grid-area: sub;
+}
+#four{
+  grid-area: four;
+}
+#five{
+  grid-area: five;
+}
+#six{
+  grid-area: six;
+}
+#mul{
+  grid-area: mul;
+}
+#one{
+  grid-area: one;
+}
+#two{
+  grid-area: two;
+}
+#three{
+  grid-area: three;
+}
+#div{
+  grid-area: div;
+}
+#point{
+  grid-area: point;
+}
+#zero{
+  grid-area: zero;
+}
+#eq{
+  grid-area: eq;
+}
+#add{
+  grid-area: add;
+}
